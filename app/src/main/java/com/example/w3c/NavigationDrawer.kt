@@ -13,6 +13,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.example.w3c.databinding.ActivityNavigationDrawerBinding
 
+
 class NavigationDrawer : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
