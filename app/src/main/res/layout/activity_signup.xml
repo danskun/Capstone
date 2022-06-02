@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="8dp"
-    tools:context=".ui.login.LoginActivity">
+    tools:context=".ui.">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,10 +28,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="8dp"
-            android:text="@string/Login"
+            android:text="@string/sign_up"
             android:textAlignment="center"
             android:textSize="32sp"
             android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_hint"
+            app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+            <EditText
+                android:id="@+id/edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:autofillHints="name"
+                android:inputType="textPersonName" />
+
+        </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -42,7 +58,7 @@
             app:startIconDrawable="@drawable/ic_baseline_email_24">
 
             <com.example.w3c.EmailEditText
-                android:id="@+id/tv_email"
+                android:id="@+id/edt_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp" />
@@ -58,7 +74,7 @@
             app:startIconDrawable="@drawable/ic_baseline_lock_24">
 
             <com.example.w3c.PasswordEditText
-                android:id="@+id/tv_password"
+                android:id="@+id/edt_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp"
@@ -67,15 +83,15 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/btn_signin"
+            android:id="@+id/bt_signup"
             android:enabled="false"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:text="@string/sign_in" />
+            android:text="@string/sign_up" />
 
         <ProgressBar
-            android:id="@+id/pb_login"
+            android:id="@+id/pb_signup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -85,15 +101,15 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/tv_signup_hint"
+        android:id="@+id/tv_signin_hint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@id/tv_signup_intent"
+        app:layout_constraintBottom_toTopOf="@id/tv_signin_intent"
         android:textAlignment="center"
-        android:text="@string/hint_to_signup"/>
+        android:text="@string/hint_signin"/>
 
     <TextView
-        android:id="@+id/tv_signup_intent"
+        android:id="@+id/tv_signin_intent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -101,6 +117,6 @@
         android:layout_marginBottom="28dp"
         android:textStyle="italic"
         android:textColor="@color/design_default_color_primary"
-        android:text="@string/sign_up_intent"/>
+        android:text="@string/sign_in"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
