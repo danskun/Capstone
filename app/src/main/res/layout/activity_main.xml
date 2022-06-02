@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <fragment
+        <androidx.fragment.app.FragmentContainerView
         android:id="@+id/nav_host_fragment_activity_main"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
@@ -30,12 +30,12 @@
         app:fabCradleRoundedCornerRadius="20dp"
         app:fabCradleVerticalOffset="10dp">
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/navi_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginRight="16dp"
-            app:menu="@menu/bottom_nav_menu" />
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/navi_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="0dp"
+                app:menu="@menu/navigation" />
 
     </com.google.android.material.bottomappbar.BottomAppBar>
 
