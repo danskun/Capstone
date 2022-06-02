@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:defaultNavHost="true"
-        app:navGraph="@navigation/mobile_navigation2" />
+        app:navGraph="@navigation/mobile_navigation" />
 
 
         <com.google.android.material.bottomappbar.BottomAppBar
@@ -35,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="0dp"
-                app:menu="@menu/navigation" />
+                app:menu="@menu/bottom_nav_menu" />
 
     </com.google.android.material.bottomappbar.BottomAppBar>
 

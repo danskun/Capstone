@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.w3c.databinding.FragmentSearchBinding
+import com.example.w3c.ui.home.HomeFragment
 
 class SearchFragment : Fragment() {
     private var _binding: FragmentSearchBinding? = null
@@ -34,5 +35,14 @@ class SearchFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+    }
+
+    companion object {
+        fun newInstance(): SearchFragment {
+            val fragment = SearchFragment()
+            val args = Bundle()
+            fragment.arguments = args
+            return fragment
+        }
     }
 }

@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.W3C">
         <activity
+            android:name=".BottomNavActicity"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_nav_acticity" />
+        <activity
+            android:name=".ui.bottomnav.BottomNav"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_nav" />
+        <activity
             android:name=".ui.main.MainActivity"
             android:exported="true">
             <intent-filter>
@@ -34,7 +42,6 @@
         <activity
             android:name=".ui.splash.SplashActivity"
             android:exported="false" />
-
     </application>
 
 </manifest>
