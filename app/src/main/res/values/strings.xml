@@ -29,8 +29,8 @@
     <string name="title_profile">Profile</string>
     <string name="action_edtprofile">Edit Profile</string>
     <string name="add">add</string>
-    <string name="title_activity_bottom_nav">BottomNav</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="title_activity_bottom_nav_acticity">BottomNavActicity</string>
+    <string name="fragment_favorite">tes favorite</string>
+    <string name="post_title">Judul</string>
+    <string name="sharing">Isi</string>
+    <string name="posting">Posting</string>
 </resources>

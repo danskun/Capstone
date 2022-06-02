@@ -3,24 +3,42 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1505" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/comment.xml" value="0.1785" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/custom.xml" value="0.1505" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_account_circle_24.xml" value="0.1505" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_admin.xml" value="0.1785" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1505" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_favorite_border_24.xml" value="0.1505" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1505" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_user.xml" value="0.1785" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_bottom.xml" value="0.25" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_bottom_nav_acticity.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.25" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_post_thread.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_splash.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_thread_details.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/content_navigation_drawer.xml" value="0.25" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_add.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_favorite.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_gallery.xml" value="0.25" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_notifications.xml" value="0.25" />
-        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_profile.xml" value="0.136" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_search.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_slideshow.xml" value="0.25" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/item_home.xml" value="0.2" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/nav_header_navigation_drawer.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/navigation_drawer.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/menu/activity_main2_drawer.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/menu/navigation.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/menu/navigation_drawer.xml" value="0.25" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1505" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/xml/navigation_drawer.xml" value="0.25" />
         <entry key="..\:/W3C-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1505" />
         <entry key="..\:/W3C-master/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1505" />
@@ -46,37 +64,6 @@
         <entry key="..\:/W3C-master/app/src/main/res/menu/navigation_drawer.xml" value="0.25" />
         <entry key="..\:/W3C-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1505" />
         <entry key="..\:/W3C-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1505" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1725" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/drawable/ic_account_circle_24.xml" value="0.1725" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.1725" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1725" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/drawable/ic_favorite_border_24.xml" value="0.1725" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1725" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1725" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1725" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1725" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1725" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/activity_bottom.xml" value="0.33024431339511373" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/activity_bottom_nav.xml" value="0.1265625" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/activity_bottom_nav_acticity.xml" value="0.1125" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.17074275362318841" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.17074275362318841" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/content_navigation_drawer.xml" value="0.17074275362318841" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/fragment_add.xml" value="0.12291666666666666" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/fragment_dashboard.xml" value="0.17074275362318841" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/fragment_favorite.xml" value="0.12291666666666666" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/fragment_gallery.xml" value="0.17074275362318841" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/fragment_home.xml" value="0.17074275362318841" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/fragment_notifications.xml" value="0.17074275362318841" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/fragment_profile.xml" value="0.17074275362318841" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/fragment_search.xml" value="0.12291666666666666" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/fragment_slideshow.xml" value="0.17074275362318841" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/nav_header_navigation_drawer.xml" value="0.17074275362318841" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/menu/activity_main2_drawer.xml" value="1.0" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/menu/bottom_nav_menu.xml" value="0.12291666666666666" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/menu/navigation.xml" value="0.12291666666666666" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/menu/navigation_drawer.xml" value="0.12291666666666666" />
         <entry key="..\:/kotlin/W3C/app/src/main/res/layout/activity_splash.xml" value="0.1" />
       </map>
     </option>

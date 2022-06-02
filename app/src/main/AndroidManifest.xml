@@ -10,14 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.W3C">
         <activity
-            android:name=".BottomNavActicity"
-            android:exported="false"
-            android:label="@string/title_activity_bottom_nav_acticity" />
-        <activity
-            android:name=".ui.bottomnav.BottomNav"
-            android:exported="false"
-            android:label="@string/title_activity_bottom_nav" />
-        <activity
             android:name=".ui.main.MainActivity"
             android:exported="true">
             <intent-filter>
@@ -30,15 +22,6 @@
             android:name=".ui.login.LoginActivity"
             android:exported="false"
             android:label="@string/title_activity_login" />
-        <activity
-            android:name=".NavigationDrawer"
-            android:exported="false"
-            android:label="@string/title_activity_navigation_drawer"
-            android:theme="@style/Theme.W3C.NoActionBar" />
-        <activity
-            android:name=".bottom"
-            android:exported="false"
-            android:label="@string/title_activity_bottom" />
         <activity
             android:name=".ui.splash.SplashActivity"
             android:exported="false" />
