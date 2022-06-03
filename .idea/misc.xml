@@ -32,10 +32,11 @@
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_gallery.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_notifications.xml" value="0.25" />
-        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_profile.xml" value="0.136" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_search.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_slideshow.xml" value="0.25" />
-        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/item_home.xml" value="0.2" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/item_home.xml" value="0.176" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/item_row_stories.xml" value="0.4" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/nav_header_navigation_drawer.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/navigation_drawer.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/menu/activity_main2_drawer.xml" value="0.25" />
@@ -68,8 +69,6 @@
         <entry key="..\:/W3C-master/app/src/main/res/menu/navigation_drawer.xml" value="0.25" />
         <entry key="..\:/W3C-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1505" />
         <entry key="..\:/W3C-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1505" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
-        <entry key="..\:/kotlin/Capstone/app/src/main/res/layout/item_row_stories.xml" value="0.22" />
         <entry key="..\:/kotlin/W3C/app/src/main/res/layout/activity_splash.xml" value="0.1" />
       </map>
     </option>

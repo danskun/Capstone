@@ -46,6 +46,17 @@
             android:gravity="center"/>
 
         <TextView
+            android:id="@+id/forumLike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginBottom="12dp"
+            android:drawableLeft="@drawable/like"
+            app:layout_constraintBottom_toBottomOf="@+id/stories"
+            app:layout_constraintStart_toStartOf="@+id/photo_user"
+            tools:text="10" />
+
+        <TextView
             android:id="@+id/stories"
             android:layout_width="351dp"
             android:layout_height="90dp"
@@ -54,6 +65,33 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:text="lorem ipsum sampean sedanten ngoten nek mboten nggeh ngeten pucuk dicinta deadlinepun tiba....."/>
+
+
+
+        <TextView
+            android:id="@+id/forumComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:drawableLeft="@drawable/comment"
+            android:drawablePadding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/forumLike"
+            app:layout_constraintTop_toTopOf="@+id/forumLike"
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="6 Comment" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="28dp"
+            android:drawableLeft="@drawable/ic_favorite_border_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        </TextView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
