@@ -12,7 +12,7 @@
 
     <string name="menu_home">Home</string>
     <string name="title_activity_login">LoginActivity</string>
-    <string name="prompt_email">Email</string>
+    <string name="prompt_email">Username</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
@@ -33,4 +33,15 @@
     <string name="post_title">Judul</string>
     <string name="sharing">Isi</string>
     <string name="posting">Posting</string>
+    <string name="Login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="hint_to_signup">Do you not have account?</string>
+    <string name="sign_up_intent">Sign Up</string>
+    <string name="err_empty_email">Fill the Email Field</string>
+    <string name="err_invalid_email">Invalid Email</string>
+    <string name="name_hint">Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="hint_signin">Have Account?</string>
 </resources>

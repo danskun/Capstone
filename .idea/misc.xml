@@ -4,20 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1505" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/button_shapes.xml" value="0.169" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/comment.xml" value="0.1785" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/custom.xml" value="0.1505" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_account_circle_24.xml" value="0.1505" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_admin.xml" value="0.1785" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.169" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.169" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1505" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_favorite_border_24.xml" value="0.1505" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1505" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_user.xml" value="0.1785" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_bottom.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_bottom_nav_acticity.xml" value="0.25" />
-        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_post_thread.xml" value="0.25" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_signup.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_splash.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_thread_details.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.25" />
