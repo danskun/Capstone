@@ -6,6 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".ui.search.SearchFragment">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <SearchView
         android:id="@+id/search"
@@ -16,4 +19,6 @@
         android:queryHint="Cari Sesuatu..."
         android:iconifiedByDefault="false"
         android:background="@drawable/searchview"/>
+    </ScrollView>
+
 </LinearLayout>

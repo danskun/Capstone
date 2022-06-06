@@ -46,4 +46,6 @@
     <string name="hint_signin">Have Account?</string>
     <string name="logout">Logout</string>
     <string name="sign_out">Signout</string>
+    <string name="comment">Masukan Komentar</string>
+    <string name="required_field">This Field Is Required</string>
 </resources>
