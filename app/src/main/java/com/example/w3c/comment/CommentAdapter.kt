@@ -8,7 +8,6 @@ import com.bumptech.glide.Glide
 import com.example.w3c.Comment
 import com.example.w3c.CommentList
 import com.example.w3c.R
-import com.example.w3c.User
 import com.example.w3c.databinding.ItemCommentBinding
 import com.example.w3c.utils.TimeFormat.Companion.toTimeAgo
 

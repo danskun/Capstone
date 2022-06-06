@@ -1,6 +1,6 @@
-package com.example.socialapp.daos
+package com.example.w3c
 
-import com.example.w3c.User
+
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.DocumentSnapshot
 import com.google.firebase.firestore.FirebaseFirestore

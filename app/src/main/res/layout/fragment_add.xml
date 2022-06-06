@@ -10,7 +10,7 @@
         android:id="@+id/postThreadLayout"
         android:orientation="vertical"
         android:padding="16dp"
-        tools:context=".ui.PostThread">
+        tools:context=".post.PostThread">
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/postThreadJudul"
