@@ -11,8 +11,10 @@
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_admin.xml" value="0.1785" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.169" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.169" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.169" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.169" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.169" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.169" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1505" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_favorite_border_24.xml" value="0.1505" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1505" />
@@ -20,6 +22,7 @@
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/ic_user.xml" value="0.1785" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/search_layout.xml" value="0.169" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/searchview.xml" value="0.169" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/send.xml" value="0.169" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/drawable/side_nav_bar.xml" value="0.169" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_bottom.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_bottom_nav_acticity.xml" value="0.25" />
@@ -30,7 +33,7 @@
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_sign_in.xml" value="0.22735507246376813" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_signup.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_splash.xml" value="0.25" />
-        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_thread_details.xml" value="0.25" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/activity_thread_details.xml" value="0.2" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/content_navigation_drawer.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_add.xml" value="0.25" />
@@ -42,6 +45,7 @@
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_search.xml" value="0.25" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/fragment_slideshow.xml" value="0.25" />
+        <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/item_comment.xml" value="0.2" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/item_home.xml" value="0.176" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/item_row_stories.xml" value="0.4" />
         <entry key="..\:/INSYA ALLAH KELAR/Capstone/app/src/main/res/layout/nav_header_navigation_drawer.xml" value="0.25" />
