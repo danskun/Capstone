@@ -8,36 +8,42 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.example.w3c.ListHomeAdapter
+import com.example.w3c.Post
 import com.example.w3c.R
 import com.example.w3c.databinding.ActivityBottomNavActicityBinding
+import com.example.w3c.models.DummyData
 import com.example.w3c.ui.login.LoginActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityBottomNavActicityBinding
-
+    private lateinit var rvHome: RecyclerView
+    private var list: ArrayList<Post> = arrayListOf()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val actionbar = supportActionBar
+        actionbar!!.title= "Home"
 
         binding = ActivityBottomNavActicityBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        auth = Firebase.auth
-        val firebaseUser = auth.currentUser
-        if (firebaseUser == null) {
-            // Not signed in, launch the Login activity
-            startActivity(Intent(this, LoginActivity::class.java))
-            finish()
-            return
-        }
+        rvHome = findViewById(R.id.nav_host_fragment_activity_main)
+        rvHome.setHasFixedSize(true)
+
+        list.addAll(DummyData.listData)
+        showRecyclerList()
+
+   
 
 
         val navView: BottomNavigationView = binding.navView
@@ -56,6 +62,11 @@ class MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
     }
 
+    private fun showRecyclerList() {
+        rvHome.layoutManager = LinearLayoutManager(this)
+        val listHomeAdapter = ListHomeAdapter(list)
+        rvHome.adapter = listHomeAdapter
+    }
 
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

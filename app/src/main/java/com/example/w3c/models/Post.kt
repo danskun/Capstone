@@ -1,7 +1,12 @@
 package com.example.w3c
 
 data class Post (
-    val description: String = "",
-    val user:  String,
-    val createdAt: Long = 0L,
-    val likedBy: ArrayList<String> = ArrayList())
+    var user: String = "",
+    var singkat: String = "",
+    var description: String = "",
+    var photo: Int = 0,
+    var phoneNumber: String = "",
+    var stories : String="",
+    var comment : String=""
+
+)

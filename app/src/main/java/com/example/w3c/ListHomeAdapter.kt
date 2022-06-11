@@ -9,6 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.example.w3c.ui.home.ThreadDetailActivity
 
 class ListHomeAdapter(private val listHomeAdapter: ArrayList<Post>) :
     RecyclerView.Adapter<ListHomeAdapter.ListViewHolder>() {
@@ -34,25 +35,24 @@ class ListHomeAdapter(private val listHomeAdapter: ArrayList<Post>) :
             .apply(RequestOptions().override(55, 55))
             .into(holder.imgPhoto)
 
-        holder.tvName.text = home.createdBy
-        holder.tvStories.text = home.services
+        holder.tvName.text = home.user
+        holder.tvStories.text = home.stories
+        holder.tvComment.text = home.comment
 
         val parentContext = holder.itemView.context
 
         holder.itemView.setOnClickListener {
-            val freelanceDetails = Intent(parentContext, FreelancerDetailActivity::class.java)
-            freelanceDetails.putExtra(FreelancerDetailActivity.EXTRA_PHOTO, freelancer.photo)
-            freelanceDetails.putExtra(FreelancerDetailActivity.EXTRA_NAME, freelancer.name)
-            freelanceDetails.putExtra(FreelancerDetailActivity.EXTRA_SHORT_ADDRESS, freelancer.shortAddress)
-            freelanceDetails.putExtra(FreelancerDetailActivity.EXTRA_DESCRIPTION, freelancer.description)
-            freelanceDetails.putExtra(FreelancerDetailActivity.EXTRA_PRICE, freelancer.price)
-            freelanceDetails.putExtra(FreelancerDetailActivity.EXTRA_PHONE_NUMBER, freelancer.phoneNumber)
-            parentContext.startActivity(freelanceDetails)
+            val homeDetails= Intent(parentContext, ThreadDetailActivity::class.java)
+            homeDetails.putExtra(ThreadDetailActivity.EXTRA_PHOTO, home.photo)
+            homeDetails.putExtra(ThreadDetailActivity.EXTRA_NAME, home.user)
+            homeDetails.putExtra(ThreadDetailActivity.EXTRA_DESCRIPTION, home.description)
+            homeDetails.putExtra(ThreadDetailActivity.EXTRA_COMMENT, home.comment)
+            parentContext.startActivity(homeDetails)
         }
     }
 
     override fun getItemCount(): Int {
-        return listFreelancer.size
+        return listHomeAdapter.size
     }
 
 }
